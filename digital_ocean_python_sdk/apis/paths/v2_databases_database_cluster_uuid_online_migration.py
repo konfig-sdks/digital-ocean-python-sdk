@@ -1,0 +1,9 @@
+from digital_ocean_python_sdk.paths.v2_databases_database_cluster_uuid_online_migration.get import ApiForget
+from digital_ocean_python_sdk.paths.v2_databases_database_cluster_uuid_online_migration.put import ApiForput
+
+
+class V2DatabasesDatabaseClusterUuidOnlineMigration(
+    ApiForget,
+    ApiForput,
+):
+    pass
